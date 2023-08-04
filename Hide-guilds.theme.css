@@ -1,0 +1,58 @@
+/**
+ * @name Hide guilds
+ * @version 1.0
+ * @description CSS to collapse the guild section until hovered. ||
+ * Best used on leftmost screen.
+ * @author dootykins
+ */
+
+/* hide guilds */
+.guilds-2JjMmN:not(.tutorialContainer-1pL9QS){
+	width:10px;
+	transition: width 0.1s ease-out;
+}
+.guilds-2JjMmN:hover:not(.tutorialContainer-1pL9QS) {
+	width: 71px;
+	transition: width 0.1s ease-out;
+}
+
+/* member list slide */
+@keyframes slideOut {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 240px;
+	}
+}
+.container-2o3qEW {
+	animation: slideOut 0.5s ease-out;
+	overflow:hidden;
+}
+
+/* shove around guild alert badges */
+.lowerBadge-3j0ZAg,
+.upperBadge-1d6YsW {
+	left:0;
+	right:auto;
+	scale:90%;
+	transform: translate(-110%, 0%) !important;
+}
+.upperBadge-1d6YsW {
+	transform-origin: top right;
+	transform: translate(-110%, 0%) !important;
+}
+.lowerBadge-3j0ZAg {
+	transform-origin: bottom right;
+	transform: translate(-110%, -1%) !important;
+}
+
+/* remove server image mask */
+.wrapper-2PSQCG * mask use {
+	fill:white !important;
+}
+.wrapper-3kah-n .icon-3AqZ2e {
+	border-radius: 50%;
+}
+
+
