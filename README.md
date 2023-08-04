@@ -1,6 +1,6 @@
 # Hide-Guilds-BetterDiscord
 BetterDiscord theme to hide the guild bar. 
-
+<br><br>
 For best results, put Discord on your leftmost monitor. That way, you can just slap your mouse on the far side to open the guild list.
 
 ## What it does
