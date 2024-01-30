@@ -8,11 +8,11 @@
  */
 
 /* hide guilds */
-.guilds-2JjMmN:not(.tutorialContainer-1pL9QS){
+.guilds__2b93a:not(.tutorialContainer-1pL9QS){
 	width:10px;
 	transition: width 0.1s ease-out;
 }
-.guilds-2JjMmN:hover:not(.tutorialContainer-1pL9QS) {
+.guilds__2b93a:hover:not(.tutorialContainer-1pL9QS) {
 	width: 71px;
 	transition: width 0.1s ease-out;
 }
@@ -27,28 +27,28 @@
 	}
 }
 .profilePanel-2VBkh8,
-.container-2o3qEW {
+.container-2vWgD2 {
 	animation: slideOut 0.5s ease-out;
 	overflow:hidden;
 }
 
 /* shove around guild alert badges */
 .lowerBadge-3j0ZAg,
-.upperBadge-1d6YsW {
+.upperBadge_c7cfb3 {
 	left:0;
 	right:auto;
 	scale:90%;
 	transform: translate(-110%, 0%) !important;
 }
-.upperBadge-1d6YsW {
+.upperBadge_c7cfb3 {
 	transform-origin: top right;
 	transform: translate(-110%, 0%) !important;
 }
-.lowerBadge-3j0ZAg {
+.lowerBadge__669e7 {
 	transform-origin: bottom right;
-	transform: translate(-110%, -1%) !important;
+	transform: translate(-290%, -1%) !important;
 }
-.lowerBadge-3j0ZAg .numberBadge-37OJ3S {
+.lowerBadge__669e7 .numberBadge__50328 {
 	width:10px !important;
 	height:10px;
 	text-align:center;
@@ -56,10 +56,10 @@
 }
 
 /* remove server image mask */
-.wrapper-2PSQCG * mask use {
+.wrapper__3af0b svg mask use {
 	fill:white !important;
 }
-.wrapper-3kah-n .icon-3AqZ2e {
+.wrapper_d281dd img {
 	border-radius: 50%;
 }
 
